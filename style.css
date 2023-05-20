@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(rgb(0,0,0, 80%),rgba(0, 0, 0, 80%)), url(naruto-3757871.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.main-text{
+    color: #fff;
+}
+.main-text h1{
+    font-size: 50px;
+}
+.main-text h4{
+    font-size: 20px;
+}
+.main-text button{
+color: #fff;
+background-color: orange;
+text-shadow: 20px;
+border: none;
+padding: 12px 22px ;
+}
+.button{
+    text-align: center;
+}
+.main-text button:hover{
+    background-color: greenyellow;
+    color: red;
+    border-radius: 20px;
+}
